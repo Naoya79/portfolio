@@ -1,0 +1,148 @@
+{
+  "meta": {
+    "titles": {
+      "home": "Portfolio",
+      "about": "About | Portfolio",
+      "experience": "Experience | Portfolio",
+      "skills": "Skills | Portfolio",
+      "projects": "Projects | Portfolio",
+      "contact": "Contact | Portfolio"
+    }
+  },
+  "brand": {
+    "name": "Naoya",
+    "roleShort": "Security Engineer"
+  },
+  "nav": {
+    "ariaLabel": "Primary navigation",
+    "home": "Home",
+    "about": "About",
+    "experience": "Experience",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "home": {
+    "kicker": "Security Engineer / Vulnerability Assessment Specialist",
+    "title": "Security Engineer",
+    "subtitle": "Vulnerability Assessment Specialist (3 years)",
+    "summary": "Over 3 years of experience evaluating security risks including OWASP Top 10 and business logic flaws. Developed automation tools using Python and VBA to improve efficiency. Continuously researching the latest vulnerabilities and attack techniques, while prioritizing communication with clients and team members.",
+    "cta": {
+      "github": "GitHub"
+    }
+  },
+  "about": {
+    "title": "About",
+    "lead": "Over 3 years of experience as a vulnerability assessment engineer, evaluating security risks including OWASP Top 10 and business logic flaws.",
+    "sections": {
+      "background": {
+        "title": "Background",
+        "p1": "From April 2022 to March 2025, worked in the security assessment department of an IT company, handling a wide range of tasks including vulnerability assessment of web applications and networks, customer reporting, automation, and education. Handled approximately 30-40 web assessments and about 100 IP network assessments annually, conducting security evaluations based on OWASP Top 10. Used various security tools including Burp Suite, Nmap, Nessus, and Metasploit, providing end-to-end support from report creation to remediation recommendations."
+      },
+      "strengths": {
+        "title": "Strengths",
+        "items": {
+          "0": "Developed automation scripts (Python, VBA) to streamline post-assessment report formatting, contributing to improved business quality and productivity",
+          "1": "Organized industry trends and threat information for clients, reporting and sharing in a format understandable to management",
+          "2": "Continuously researched the latest vulnerability information and attack techniques, actively updating internal assessment methods and knowledge"
+        }
+      },
+      "philosophy": {
+        "title": "Philosophy",
+        "p1": "Prioritize communication with clients and team members, maintaining teamwork and reliability while managing multiple projects in parallel. Engaged in new employee training for 2 years, providing broad guidance from basic security awareness to programming education, contributing to the overall technical improvement of the team."
+      }
+    }
+  },
+  "experience": {
+    "title": "Experience",
+    "lead": "From April 2022 to March 2025, worked in the security assessment department of an IT company, handling a wide range of tasks centered on vulnerability assessment of web applications and networks.",
+    "items": {
+      "va": {
+        "period": "April 2022 - March 2025",
+        "title": "Vulnerability Assessment Engineer",
+        "bullets": {
+          "0": "Conducted vulnerability assessments of web applications and networks (approximately 30-40 web assessments and about 100 IP network assessments annually)",
+          "1": "Performed security evaluations based on OWASP Top 10 using various security tools including Burp Suite, Nmap, Nessus, and Metasploit",
+          "2": "Created assessment result reports and provided remediation support, prepared monthly customer reports and handled reporting meetings",
+          "3": "Shared information security-related news and trends with clients (executive level)",
+          "4": "Provided end-to-end support from report creation to remediation recommendations"
+        }
+      },
+      "automation": {
+        "period": "Automation & Efficiency",
+        "title": "Automation Tool Development",
+        "bullets": {
+          "0": "Developed tools using Python and VBA to automate parts of assessment work",
+          "1": "Streamlined post-assessment report formatting to improve business quality and productivity",
+          "2": "Achieved reduction in work hours and improved accuracy"
+        }
+      },
+      "education": {
+        "period": "Training & Knowledge Sharing",
+        "title": "Education & Knowledge Sharing",
+        "bullets": {
+          "0": "Engaged in new employee training for 2 years, providing broad guidance from basic security awareness to programming education",
+          "1": "Continuously researched the latest vulnerability information and attack techniques, actively updating internal assessment methods and knowledge"
+        }
+      }
+    }
+  },
+  "skills": {
+    "title": "Skills",
+    "categories": {
+      "security": "Security",
+      "programming": "Programming",
+      "tools": "Tools",
+      "other": "Other"
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "viewOnGitHub": "View on GitHub",
+    "items": {
+      "amongUsOverlay": {
+        "title": "Among Us Discord Overlay",
+        "description": "Personal development project. A Chrome extension to help players deduce in Among Us game. Integrates with Discord to support player reasoning."
+      },
+      "djangoBlogapp": {
+        "title": "Django Blog App",
+        "description": "Personal development project. A blog application developed using the Django framework. A project to learn the fundamentals of web application development."
+      },
+      "nlpApp": {
+        "title": "Natural Language Processing App",
+        "description": "Personal development project. A web application using Yahoo's text analysis WebAPI. A project to learn natural language processing implementation."
+      },
+      "lineBot": {
+        "title": "Line Bot",
+        "description": "Personal development project. A Line Bot application that records mahjong scores and visualizes them with graphs. Implemented using HTML and Google Apps Script (GAS)."
+      },
+      "aiAgentProjects": {
+        "title": "AI Agent Projects",
+        "description": "Personal development project. A collection of projects created using AI agent tools such as Cursor and Antigravity. Focuses on AI-assisted development practices and efficiency."
+      },
+      "incidentTool": {
+        "title": "Incident Response Investigation Support Tool",
+        "description": "A university project for supporting incident response investigations. Implemented log analysis functionality using C++ and Win32 API."
+      }
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "lead": "If you'd like to discuss security testing, assessments, or collaboration, feel free to reach out.",
+    "cards": {
+      "social": {
+        "title": "Social",
+        "text": "GitHub for projects and code. LinkedIn for professional updates."
+      },
+      "email": {
+        "title": "Email",
+        "text": "For inquiries, proposals, or consulting discussions."
+      }
+    }
+  },
+  "footer": {
+    "note": "Naoya's Portfolio"
+  }
+}
+
+

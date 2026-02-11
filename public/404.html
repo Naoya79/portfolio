@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Redirecting…</title>
+    <script>
+      // GitHub Pages + BrowserRouter 対応:
+      // 存在しないパスに来た場合、パス情報を保持して index.html に戻す。
+      (function () {
+        var l = window.location;
+        var segments = l.pathname.split("/"); // ["", "repo", "path"...] or ["", "path"...]
+        // Project Pages ( /<repo>/... ) の場合だけ base に repo を含める。
+        // User/Org Pages ( /... ) は base を空にする。
+        var isProjectPage = l.hostname.endsWith("github.io") && segments.length > 2;
+        var base = isProjectPage ? "/" + segments[1] : "";
+        var redirect = base + "/?p=" + encodeURIComponent(l.pathname + l.search + l.hash);
+        l.replace(redirect);
+      })();
+    </script>
+  </head>
+  <body></body>
+</html>
+
+
