@@ -17,12 +17,19 @@ export function ProjectCarousel({ images, title }: ProjectCarouselProps) {
   const total = images.length;
   const goPrev = () => setIndex((prev) => (prev - 1 + total) % total);
   const goNext = () => setIndex((prev) => (prev + 1) % total);
+  const currentImage = images[index];
+  const resolvedImageSrc =
+    currentImage.startsWith("http://") ||
+    currentImage.startsWith("https://") ||
+    currentImage.startsWith("data:")
+      ? currentImage
+      : `${import.meta.env.BASE_URL}${currentImage.replace(/^\/+/, "")}`;
 
   return (
     <div className="projectCarousel" aria-label={t("projects.carousel.regionLabel")}>
       <img
         className="projectCarousel__image"
-        src={images[index]}
+        src={resolvedImageSrc}
         alt={`${title} ${t("projects.carousel.imageLabel")} ${index + 1}/${total}`}
         loading="lazy"
       />
