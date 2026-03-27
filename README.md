@@ -1,3 +1,5 @@
+https://naoya79.github.io/portfolio/
+
 # Portfolio (Bilingual JA/EN) — React + Vite + TypeScript
 
 GitHub Pages 配信を想定した、軽量なエンジニア向けポートフォリオです。
@@ -33,15 +35,16 @@ npm run build
 ### 方法1: GitHub Actions（推奨・自動デプロイ）
 
 1. **GitHubリポジトリの設定**
+
    - リポジトリの **Settings** → **Pages** に移動
    - **Source** を **GitHub Actions** に設定
-
 2. **自動デプロイ**
+
    - `main` ブランチにプッシュすると、自動的にビルドとデプロイが実行されます
    - `.github/workflows/deploy.yml` が自動的に処理します
    - リポジトリ名が `portfolio` の場合、`VITE_BASE=/portfolio/` が自動設定されます
-
 3. **公開URL**
+
    - デプロイ完了後、`https://naoya79.github.io/portfolio/` でアクセス可能になります
 
 ### 方法2: 手動デプロイ（gh-pages）
@@ -83,5 +86,3 @@ npm run deploy
 - **表示名/肩書**: `src/locales/ja.json` / `src/locales/en.json` の `brand.*`
 - **GitHub / LinkedIn / Email**: `src/data/profile.ts`
 - **Projects**: `src/data/projects.ts`（テキストは `src/locales/*` の `projects.items.*`）
-
-
