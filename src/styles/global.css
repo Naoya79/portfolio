@@ -38,6 +38,10 @@ a {
   text-decoration: none;
 }
 
+p {
+  display: contents;
+}
+
 a:focus-visible,
 button:focus-visible {
   outline: 3px solid var(--accentSoft);
@@ -353,6 +357,46 @@ button:focus-visible {
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
+}
+
+.projectCarousel {
+  margin-top: 12px;
+}
+
+.projectCarousel__image {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+}
+
+.projectCarousel__actions {
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.projectCarousel__btn {
+  appearance: none;
+  border: 1px solid var(--border);
+  background: #fff;
+  color: var(--text);
+  border-radius: 8px;
+  padding: 6px 10px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.projectCarousel__btn:hover {
+  background: rgba(15, 23, 42, 0.04);
+}
+
+.projectCarousel__counter {
+  font-size: 12px;
+  color: var(--muted);
 }
 
 /* Footer */

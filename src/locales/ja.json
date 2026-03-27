@@ -99,6 +99,12 @@
   "projects": {
     "title": "Projects",
     "viewOnGitHub": "GitHubで見る",
+    "carousel": {
+      "regionLabel": "プロジェクト画像カルーセル",
+      "prev": "前へ",
+      "next": "次へ",
+      "imageLabel": "画像"
+    },
     "items": {
       "amongUsOverlay": {
         "title": "Among Us Discord Overlay",

@@ -2,6 +2,7 @@ import { Container } from "../components/Container";
 import { ButtonLink } from "../components/ButtonLink";
 import { Card } from "../components/Card";
 import { Tag } from "../components/Tag";
+import { ProjectCarousel } from "../components/ProjectCarousel";
 import { useI18n } from "../i18n/I18nProvider";
 import { useDocumentTitle } from "../i18n/useDocumentTitle";
 import { profile } from "../data/profile";
@@ -107,6 +108,7 @@ export function HomePage() {
           {projects.map((p) => (
             <Card key={p.id}>
               <h3 className="cardTitle">{t(p.titleKey)}</h3>
+              <ProjectCarousel images={p.images} title={t(p.titleKey)} />
               <p className="cardText">{t(p.descriptionKey)}</p>
               <div className="tags">
                 {p.tech.map((x) => (
